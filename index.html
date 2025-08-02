@@ -1,581 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
+9 <!DOCTYPE html> 
+<html lang="en"> 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>Premium Marketing Resources & Opportunities</title>
-    <meta name="description" content="Get exclusive access to premium marketing reports and money-making opportunities. Download free 'One Signup A Day' report, Insider Advertising secrets, and start earning with paid surfing today.">
-    
-    <!-- Open Graph tags -->
-    <meta property="og:title" content="Premium Marketing Resources & Opportunities">
-    <meta property="og:description" content="Exclusive Reports & Money-Making Opportunities - Get instant access to premium marketing reports">
-    <meta property="og:type" content="website">
-
+    <meta name="google-site-verification" content="-MXEHVXZdXMAdMQlwwyf20T0BRplZ72BPk7YYerjpHI" />  
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How [Name] Made $195,706  (Video Proof)</title>
     <style>
-        * {
+        body {
+            font-family: 'Arial', sans-serif; 
+            background-color: #0a0a0a;
+            color: white; 
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #ffffff;
         }
-
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 0 1rem;
+            padding: 20px;
         }
-
-        /* Header */
-        .header {
-            background: linear-gradient(to right, #e22121, #dc1c1c);
-            color: white;
-            padding: 1rem 0;
+        header { 
+            text-align: center;  
+            padding: 30px 0; /* Kleinerer Header */
+            background: linear-gradient(135deg, #6e00ff 0%, #ff00d4 100%);
+            border-radius: 10px 
+            margin-bottom: 20px; /* Weniger Abstand */
         }
-
-        .header h1 {
-            font-size: 1.5rem;
+        h1 {
+            font-size: 2.2rem; /* Kleinere Schrift */ 
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subhead {
+            font-size: 1.1rem; /* Kleinere Schrift */
             font-weight: bold;
-            text-align: center;
+            margin-bottom: 15px;
         }
-
-        /* Main Content */
-        .main {
-            padding: 1.5rem 0;
+        .video-container {
+            margin: 20px 0; /* Weniger Abstand */
+            position: relative;
+            padding-bottom: 40%; /* Kleinere Video-Höhe (war 56.25%) */
+            height: 0;
+            overflow: hidden;
         }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .section-title h2 {
-            font-size: 1.875rem;
-            font-weight: bold;
-            color: #e22121;
-            margin-bottom: 0.5rem;
-        }
-
-        /* Grid Layout */
-        .grid {
-            display: grid;
-            gap: 1rem;
-            max-width: 72rem;
-            margin: 0 auto;
-        }
-
-        .grid-3 {
-            grid-template-columns: 1fr;
-        }
-
-        @media (min-width: 768px) {
-            .grid-3 {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        /* Cards */
-        .card {
-            background: white;
-            border-radius: 0.5rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e5e7eb;
-            padding: 1rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
-        }
-
-        .card-special {
-            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
-            border-color: #fbbf24;
-        }
-
-        .card-purple {
-            background: linear-gradient(135deg, #faf5ff 0%, #fce7f3 100%);
-            border-color: #c084fc;
-        }
-
-        .card-green {
-            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
-            border-color: #4ade80;
-        }
-
-        .card-giveaway {
-            background: linear-gradient(135deg, #f0f9ff 0%, #dbeafe 100%);
-            border-color: #60a5fa;
-        }
-
-        .card-earning {
-            background: linear-gradient(135deg, #f0fdf4 0%, #dbeafe 100%);
-            border-color: #10b981;
-        }
-
-        /* Badge */
-        .badge {
-            display: inline-flex;
-            align-items: center;
-            padding: 0.25rem 0.5rem;
-            border-radius: 9999px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-        }
-
-        .badge-yellow {
-            background-color: #fef3c7;
-            color: #92400e;
-        }
-
-        .badge-purple {
-            background-color: #e9d5ff;
-            color: #7c3aed;
-        }
-
-        .badge-green {
-            background-color: #d1fae5;
-            color: #065f46;
-        }
-
-        .badge-red {
-            background-color: rgba(226, 33, 33, 0.1);
-            color: #e22121;
-        }
-
-        /* Text */
-        .text-center {
-            text-align: center;
-        }
-
-        .text-sm {
-            font-size: 0.875rem;
-        }
-
-        .text-xs {
-            font-size: 0.75rem;
-        }
-
-        .font-bold {
-            font-weight: bold;
-        }
-
-        .mb-2 {
-            margin-bottom: 0.5rem;
-        }
-
-        .mb-3 {
-            margin-bottom: 0.75rem;
-        }
-
-        .mb-4 {
-            margin-bottom: 1rem;
-        }
-
-        .text-gray {
-            color: #6b7280;
-        }
-
-        .text-primary {
-            color: #555a69;
-        }
-
-        /* Buttons */
-        .btn {
-            display: block;
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            padding: 0.5rem 0.75rem;
-            border-radius: 0.5rem;
-            text-align: center;
-            font-size: 0.75rem;
+            height: 100%;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .proof-badge {
+            background: #00c853;
+            padding: 6px 12px; /* Kleinerer Badge */
+            border-radius: 20px;
+            display: inline-block;
+            margin: 8px 0;
             font-weight: bold;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
+            font-size: 0.8rem; /* Kleinere Schrift */
         }
-
-        .btn-primary {
-            background-color: #e22121;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background-color: #dc1c1c;
-        }
-
-        .btn-yellow {
-            background-color: #eab308;
-            color: white;
-        }
-
-        .btn-yellow:hover {
-            background-color: #ca8a04;
-        }
-
-        .btn-purple {
-            background-color: #8b5cf6;
-            color: white;
-        }
-
-        .btn-purple:hover {
-            background-color: #7c3aed;
-        }
-
-        .btn-green {
-            background-color: #10b981;
-            color: white;
-        }
-
-        .btn-green:hover {
-            background-color: #059669;
-        }
-
-        /* Email Registration */
-        .email-section {
-            background: linear-gradient(to right, #e22121, #dc1c1c);
-            color: white;
-            padding: 3rem 0;
+        .cta-box {
+            background: #1a1a1a;
+            padding: 25px; /* Weniger Padding */
+            border-radius: 10px;
+            border: 1px solid #6e00ff;
+            margin: 30px 0;
             text-align: center;
         }
-
-        .email-form {
-            max-width: 28rem;
-            margin: 0 auto;
-        }
-
         .form-input {
             width: 100%;
-            padding: 0.75rem 1rem;
-            border-radius: 0.5rem;
+            padding: 12px; /* Kleinere Eingabefelder */
+            margin: 8px 0;
+            border-radius: 5px;
             border: none;
-            margin-bottom: 1rem;
-            font-size: 0.875rem;
-            color: #374151;
+            font-size: 0.9rem;
         }
-
-        .form-input::placeholder {
-            color: #6b7280;
-        }
-
-        .form-input:focus {
-            outline: none;
-            box-shadow: 0 0 0 2px white;
-        }
-
-        .btn-form {
-            background: white;
-            color: #e22121;
-            padding: 1rem 2rem;
-            font-size: 1rem;
-            border-radius: 0.5rem;
+        .submit-btn {
+            background: linear-gradient(to right, #6e00ff, #ff00d4);
+            color: white;
             border: none;
-            font-weight: bold;
+            padding: 12px 25px; /* Kleinere Button-Größe */
+            font-size: 1rem; /* Kleinere Schrift */
+            border-radius: 5px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            font-weight: bold;
             width: 100%;
+            transition: all 0.3s ease;
         }
-
-        .btn-form:hover {
-            background: #f9fafb;
-            box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(110,0,255,0.3);
         }
-
-        .form-disclaimer {
-            font-size: 0.75rem;
-            color: rgba(254, 202, 202, 0.8);
-            margin-top: 1rem;
+        .testimonial {
+            font-style: italic;
+            padding: 15px;
+            background: #1a1a1a;
+            border-left: 4px solid #6e00ff;
+            margin: 15px 0;
+            font-size: 0.9rem; /* Kleinere Schrift */
         }
-
-        /* Footer */
-        .footer {
-            background-color: #f9fafb;
-            border-top: 1px solid #e5e7eb;
-            padding: 1rem 0;
+        .scarcity {
+            color: #ff4081;
+            font-weight: bold;
+            margin: 15px 0;
+            font-size: 0.9rem; /* Kleinere Schrift */
+        }
+        footer {
             text-align: center;
-        }
-
-        .footer p {
-            font-size: 0.875rem;
-            color: #6b7280;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 1.25rem;
-            }
-            
-            .section-title h2 {
-                font-size: 1.5rem;
-            }
-            
-            .grid {
-                gap: 0.75rem;
-            }
-            
-            .card {
-                padding: 0.75rem;
-            }
+            margin-top: 30px; /* Weniger Abstand */
+            font-size: 0.7rem; /* Kleinere Schrift */
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <h1>Marketing Resources & Opportunities</h1>
+    <div class="container">
+        <header>
+            <h1>How Mark Made $195,706 </h1>
+            <div class="subhead">The Exact System That Turned Him From Broke To Millionaire</div>
+            <div class="proof-badge">VIDEO PROOF INSIDE</div>
+        </header>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XPAvGqj4sI0?si=gAtWe2eAu1m6_-yp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-    </header>
 
-    <!-- Main Content -->
-    <main class="main">
-        <div class="container">
-            <!-- Special Traffic Offers -->
-            <section class="section">
-                <div class="section-title">
-                    <h2>🚀 Special Traffic - NEW!</h2>
-                </div>
-                
-                <div class="grid grid-3">
-                    <!-- $20 BEST Deal Package -->
-                    <div class="card card-special">
-                        <div class="text-center mb-3">
-                            <span class="badge badge-yellow">NEW! BEST DEAL</span>
-                            <h3 class="text-sm font-bold text-primary mb-2">$20 BEST Deal Package</h3>
-                        </div>
-                        <a href="https://www.herculist.com/members/20deal.cgi?naturallyinshape" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="btn btn-yellow">
-                            Get Best Deal Package
-                        </a>
-                    </div>
-
-                    <!-- Mega-Mail Sales -->
-                    <div class="card card-purple">
-                        <div class="text-center mb-3">
-                            <span class="badge badge-purple">MEGA MAIL</span>
-                            <h3 class="text-sm font-bold text-primary mb-2">Mega-Mail Sales Page</h3>
-                        </div>
-                        <a href="https://www.herculist.com/members/Megaform.cgi?naturallyinshape" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="btn btn-purple">
-                            Access Mega-Mail
-                        </a>
-                    </div>
-
-                    <!-- Free Lifetime Membership -->
-                    <div class="card card-green">
-                        <div class="text-center mb-3">
-                            <span class="badge badge-green">FREE LIFETIME</span>
-                            <h3 class="text-sm font-bold text-primary mb-2">Free Lifetime Membership</h3>
-                        </div>
-                        <a href="https://www.herculist.com/members/index3.cgi?naturallyinshape" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="btn btn-green">
-                            Get Free Membership
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Main Offers -->
-            <section class="section">
-                <div class="grid grid-3">
-                    <!-- One Signup A Day -->
-                    <div class="card">
-                        <div class="text-center mb-3">
-                            <span class="badge badge-red">🎁 FREE GIVEAWAY</span>
-                            <img src="https://www.leadsleap.com/images/1signupaday2.1.png" 
-                                 alt="One Signup A Day Report"
-                                 style="width: 100%; height: 7rem; object-fit: contain; border-radius: 0.5rem; margin-bottom: 0.75rem;">
-                            <h3 class="text-sm font-bold text-primary mb-2">"One Signup A Day" Report</h3>
-                            <p class="text-xs text-gray mb-3">
-                                Discover the proven strategy to generate consistent daily signups for your business
-                            </p>
-                        </div>
-                        
-                        <a href="https://leadsleap.com/1signupaday/?r=sandyarta&source=github-ad1" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="btn btn-primary">
-                            Download FREE Report
-                        </a>
-                    </div>
-
-                    <!-- Insider Advertising Report -->
-                    <div class="card">
-                        <div class="text-center mb-3">
-                            <span class="badge badge-red">🎁 GIVEAWAY</span>
-                            <img src="https://leadsleap.com/images/insider.png?1" 
-                                 alt="Insider Advertising Report"
-                                 style="width: 100%; height: 7rem; object-fit: contain; border-radius: 0.5rem; margin-bottom: 0.75rem;">
-                            <h3 class="text-sm font-bold text-primary mb-2">Insider Advertising Report</h3>
-                            <p class="text-xs text-gray mb-3">
-                                Learn the secrets top advertisers use to maximize ROI and crush their competition
-                            </p>
-                        </div>
-                        
-                        <a href="https://leadsleap.com/insideradreport/?r=sandyarta" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="btn btn-primary">
-                            Download FREE Report
-                        </a>
-                    </div>
-
-                    <!-- Get Paid to Surf -->
-                    <div class="card">
-                        <div class="text-center mb-3">
-                            <span class="badge badge-red">💰 EARN MONEY</span>
-                            <img src="https://cashclicking.com/img23/banner-min_1.png" 
-                                 alt="Get Paid to Surf"
-                                 style="width: 100%; height: 7rem; object-fit: contain; border-radius: 0.5rem; margin-bottom: 0.75rem;">
-                            <h3 class="text-sm font-bold text-primary mb-2">Get paid to surf!</h3>
-                            <p class="text-xs text-gray mb-3">
-                                Start earning money immediately by surfing websites and viewing advertisements
-                            </p>
-                        </div>
-                        
-                        <a href="https://cashclicking.com/?r=natur&cn=LinkG" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="btn btn-primary">
-                            Start Earning Now
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Banner Section -->
-            <section class="section">
-                <div class="text-center">
-                    <a href="https://lllpg.com/77hbcxfx/" target="_blank" rel="noopener noreferrer">
-                        <img src="https://imgallery.llsvr.com/gimo.64ae2abe3afee.gif" 
-                             alt="Marketing Banner" 
-                             style="max-width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
-                    </a>
-                </div>
-            </section>
-
-            <!-- Additional Section Title -->
-            <section class="section">
-                <div class="section-title">
-                    <h2>📈 To see more ads, refresh the page!</h2>
-                </div>
-            </section>
+        <div class="testimonial">
+            "I was skeptical at first, but after implementing this system, I made $12,487 in my first week. By month's end, I hit $195,706. This changed my life forever." - Mark J.
         </div>
-    </main>
 
-    <!-- LeadsLeap Tracking Scripts (9x) -->
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
-    
-    <script data-cfasync="false">
-        ll_r="sandyarta";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="6";ll_cl="";ll_s="w";
-    </script>
-    <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
+        <div class="scarcity">
+            WARNING: This system only works for the first 37 people who register each day. Spots fill fast.
+        </div>
 
-    <!-- PopupXpert Code -->
-    <script type="text/javascript" src="https://leadsleap.com/popupxpert/?r=sandyarta"></script>
-
-    <!-- Email Registration Section -->
-    <section class="email-section">
-        <div class="container">
-            <h2 style="font-size: 1.875rem; font-weight: bold; margin-bottom: 0.5rem;">
-                🔥 Get FREE Premium Ads & Reports!
-            </h2>
-            <p style="font-size: 1.25rem; color: rgba(254, 202, 202, 0.9); margin-bottom: 0.5rem;">
-                Sign up now for exclusive marketing tips and free advertising credits
-            </p>
-            <p style="font-size: 0.875rem; color: rgba(254, 202, 202, 0.8); margin-bottom: 2rem;">
-                ✓ Free Ads ✓ Premium Reports ✓ Marketing Secrets ✓ Money Making Tips
-            </p>
+        <div class="cta-box">
+            <h2 style="margin-top: 0; font-size: 1.5rem;">You Could Be Next</h2>
+            <p style="margin-bottom: 20px;">Enter your details below to get instant access to the same system Mark used:</p>
             
-            <div class="email-form">
-                <form method="post" action="https://www.sendsteed.com/subscribe/">
-                    <input name="e51567" 
-                           required 
-                           type="email" 
-                           placeholder="Your Email Address"
-                           class="form-input">
-                    <input name="n51567" 
-                           required 
-                           type="text" 
-                           placeholder="Your Name"
-                           class="form-input">
-                    <input type="hidden" name="lllid" value="51567">
-                    <input type="hidden" name="lluid" value="sandyarta">
-                    <input type="hidden" name="redirect" value="">
-                    <input type="hidden" name="source" value="github-homepage">
-                    <button type="submit" class="btn-form">
-                        🚀 SIGN UP FREE NOW!
-                    </button>
-                </form>
-                
-                <p class="form-disclaimer">
-                    100% free • No spam • Unsubscribe at any time
-                </p>
-            </div>
+            <form method="post" action="https://www.sendsteed.com/subscribe/">
+                <input class="form-input" name="n110385" required type="text" placeholder="Your First Name">
+                <input class="form-input" name="e110385" required type="email" placeholder="Your Best Email">
+                <input type="hidden" name="lllid" value="110385">
+                <input type="hidden" name="lluid" value="sandyarta">
+                <input type="hidden" name="redirect" value="">
+                <input type="hidden" name="source" value="trafficzest">
+                <button class="submit-btn" type="submit">GIVE ME ACCESS NOW</button>
+            </form>
+            
+            <p style="font-size: 0.7rem; margin-top: 10px;">We respect your privacy. Unsubscribe at any time.</p>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>© 2024 Marketing Resources. All opportunities subject to terms and conditions.</p>
-        </div>
-    </footer>
-</body>
-</html>
+    
